@@ -1,0 +1,8 @@
+extends layout
+
+block content
+   h1 Github Markdown Preview
+
+   form(action="/upload", method="post")
+      textarea(name="markdown", placeholder="Enter markdown here…")
+      button(type="submit") Render

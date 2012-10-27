@@ -1,0 +1,19 @@
+{
+  "name": "github-markdown-preview",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/adunkman/github-markdown-preview",
+  "author": "Andrew Dunkman <andrew@dunkman.org>",
+  "dependencies": {
+    "stylus": "0.30.1",
+    "jade": "0.27.6",
+    "express": "3.0.0",
+    "request": "~2.11.4",
+    "connect-assets": "~2.3.3",
+    "connect-flash": "~0.1.0"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  }
+}

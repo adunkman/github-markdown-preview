@@ -1,0 +1,11 @@
+doctype 5
+html
+   head
+      title Github Markdown Preview
+      != css("main")
+
+   body
+      each messages, type in locals.flash
+         each message in messages
+            div.flash(class=type)= message
+      block content
