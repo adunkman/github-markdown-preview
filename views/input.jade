@@ -4,5 +4,8 @@ block content
    h1 Github Markdown Preview
 
    form(action="/upload", method="post")
-      textarea(name="markdown", placeholder="Enter markdown here…")
-      button(type="submit") Render
+      .previewable-comment-form
+         textarea(name="markdown", placeholder="Enter markdown here…")
+
+      .form-actions
+         button.classy(type="submit") Render

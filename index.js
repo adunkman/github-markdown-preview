@@ -10,9 +10,7 @@ app.set("view engine", "jade");
 app.use(require("connect-assets")());
 app.use(express.static(__dirname + "/public"));
 app.use(express.cookieParser("098645EA-0233-4150-AEEF-1C68ABA5E92B"));
-app.use(express.session({
-  secret: "098645EA-0233-4150-AEEF-1C68ABA5E92B"
-}));
+app.use(express.session({ secret: "098645EA-0233-4150-AEEF-1C68ABA5E92B" }));
 app.use(express.bodyParser());
 app.use(require("connect-flash")());
 app.use(util.flashMiddleware);
